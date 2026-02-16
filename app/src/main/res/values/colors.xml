@@ -11,7 +11,7 @@
     <color name="rose">#b94366</color>
     <color name="rouge">#A94064</color>
     <color name="lav">#fcefb8</color>
-    <color name="jaune">#FFFFD8</color>
-    <color name="ocean">#b5e2ff</color>
-    <color name="ciel">#DAF0FF</color>
+    <color name="jaune">#f9ddb1</color>
+    <color name="ocean">#003d80</color>
+    <color name="ciel">#000c19</color>
 </resources>

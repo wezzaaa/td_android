@@ -57,7 +57,7 @@ fun DetailCocktailScreen(modifier: Modifier = Modifier) {
                 painter = painterResource(id = R.drawable.photo),
                 contentDescription = "",
                 modifier = Modifier
-                    .size(300.dp)
+                    .size(240.dp)
                     .clip(CircleShape),
                 contentScale = ContentScale.Crop
             )
@@ -132,14 +132,20 @@ fun CategoryView(category: String , colors: List<Color> ){
     Box(Modifier
         .clip(CircleShape)
         .background(
-            Brush.horizontalGradient(colors = colors)
-
+            Brush.horizontalGradient(
+                colors = colors.map { it.copy(alpha = 0.25f) } // garde les couleurs mais "verre"
+            )
+        )
+        .border(
+            1.dp,
+            Color.White.copy(alpha = 0.25f),   // bordure glass
+            CircleShape
         )
     ){
         Text(
             text = category,
             fontSize = 20.sp,
-            color = Color.Black,
+            color = Color.White,
             modifier = Modifier.padding(horizontal = 20.dp, vertical = 10.dp)
         )
     }
