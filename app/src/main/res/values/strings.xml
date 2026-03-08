@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">TheGreatestCocktailApp</string>
+    <string name="tab_item_random">Random</string>
+    <string name="tab_item_category">List</string>
+    <string name="tab_item_favorite">Favorites</string>
+    <string name="detail_title">Cocktail Details</string>
+    <string name="ingredients_title">Ingredients</string>
+    <string name="instructions_title">Instructions</string>
+    <string name="glass_title">Glass</string>
+    <string name="favorites_empty_title">No favorites yet</string>
+    <string name="favorites_empty_message">Save cocktails from the detail screen to find them here.</string>
 </resources>
